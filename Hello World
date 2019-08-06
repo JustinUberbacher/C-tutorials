@@ -1,0 +1,35 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("The Assyrian came down like the wolf on the fold,\n" +
+            "And his cohorts were gleaming in purple and gold\n" +
+            "And the sheen of their spears was like stars on the sea\n" +
+            "When the blue wave rolls nightly on deep Galilee.\n" +
+
+   "Like the leaves of the forest when Summer is green,\n " +
+"That host with their banners at sunset were seen:\n " +
+            "Like the leaves of the forest when Autumn hath blown,\n" +
+            "That host on the morrow lay withered and strow\n" +
+            "For the Angel of Death spread his wings on the blast,\n " +
+"And breathed in the face of the foe as he passed; \n" +
+            "And the eyes of the sleepers waxed deadly and chill,\n" +
+            "And their hearts but once heaved, and for ever grew still!\n" +
+           "And there lay the steed with his nostril all wide, \n" +
+            "But through it there rolled not the breath of his pride;\n " +
+            "And the foam of his gasping lay white on the turf,\n" +
+"And cold as the spray of the rock-beating surf.\n" +
+"And there lay the rider distorted and pale,\n" +
+"With the dew on his brow, and the rust on his mail: \n" +
+"The lances unlifted, the trumpet unblown.\n" +
+"And the widows of Ashur are loud in their wail,\n" +
+"And the idols are broke in the temple of Baal; \n" +
+            "And the might of the Gentile, unsmote by the sword,\n" +
+"Hath melted like snow in the glance of the Lord!\n");   // used the destruction of sennacherib instead of "Hello World!" it was just more intereseting.// 
+        }
+    }
+}
