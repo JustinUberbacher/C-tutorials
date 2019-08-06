@@ -1,0 +1,17 @@
+using System;
+
+namespace Configure_Input
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello stranger! What shall I call you?");                              // asks user name
+            var name = Console.ReadLine();                                                           // user types there name of choice
+            Console.WriteLine("Nice to meet you " + name + " what would you like me to say?");      // asks what you would like the console to retun
+            var input = Console.ReadLine();                                                        // allows user to input what they would liek to see in console.
+            Console.WriteLine(input);                                                             // returns user input
+            Console.WriteLine("That was fun, " + name + ". Goodbye for now.");                   //says goodbye and refers to use by name
+        }
+    }
+}
