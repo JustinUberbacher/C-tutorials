@@ -1,0 +1,31 @@
+using System;
+
+namespace Challenge1_Multiple_Choice_Questions
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Stop! who would cross the bridge of death must answer me these questions three" +
+            "there the other side ye see!");
+
+            Console.WriteLine("What is your name?");
+            var name = Console.ReadLine();
+
+            Console.WriteLine("What is your quest?");
+            var quest = Console.ReadLine();
+
+            Console.WriteLine("What is the Capitol of Assyria?");
+            var capitolOfAssyria = Console.ReadLine();
+            if (capitolOfAssyria == "Nineveh")
+            {
+                Console.WriteLine("Alright off you go then.");
+                Console.WriteLine(name + " thanks the bridge keeper then walks across the bridge safely");
+            }
+            else if (capitolOfAssyria != "Nineveh")
+            {
+                Console.WriteLine("*a magical force launches " + name + " into the Gorge of Eternal Peril* " + name + " yells 'AAAHHHHHHHH!!!!'");
+            }
+        }
+    }
+}
