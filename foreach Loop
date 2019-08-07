@@ -1,0 +1,17 @@
+using System;
+
+namespace ForEachLoop
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var studentGrades = new int[] { 80, 77, 65, 44, 95, 90, 85 };
+
+            foreach (var studentGrade in studentGrades)
+            {
+                Console.WriteLine(studentGrade);
+            }
+        }
+    }
+}
